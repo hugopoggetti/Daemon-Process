@@ -51,6 +51,7 @@ Fri Mar 14 16:36:06 2025  [ INFO ]  Cleaning all
 
 ## 🎯 How It Works  
 
+[See : daemon](https://en.wikipedia.org/wiki/Daemon_(computing))
 1. **Creates a daemon** process by forking and detaching from the terminal.  
 2. **Listens on TCP port 8000** for incoming connections.  
 3. **Logs all received messages** into `daemon.log`.  
